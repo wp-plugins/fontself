@@ -1,0 +1,72 @@
+/*
+Copyright (C) 2008 Claude Vedovini <http://vedovini.net/>.
+
+The Fontself Wordpress plugin is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+The Fontself Wordpress plugin is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with the Fontself Wordpress plugin.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#fontself-comment-form {
+	clear: both;
+	float: left;
+}
+
+.fontself-check {
+    float: left;
+    padding: 2px 4px 0 0;
+}
+
+.fontself-selector {
+    float: left;
+    width: 137px;
+    height: 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin: 0;
+    padding: 2px 4px 0 20px;
+    background-image: url('logo.png');
+    background-position: 2px 3px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.fontself-selector .preview {
+	margin-left: 5px;
+}
+
+.fontself-selector .fontlist {
+	width: 140px;
+	height: 113px;
+	overflow: auto;
+    border: 1px solid #ddd;
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+}
+
+.fontself-selector .option {
+	list-style: none;
+	height: 20px;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+    margin: 0;
+	padding: 2px 4px 0;
+}
+	
+.fontself-selector .option:hover {
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
