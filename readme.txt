@@ -5,7 +5,7 @@ Donate link: http://vedovini.net/plugins
 Tags: Fontself,font,fonts,typeface,handwritten,personalize
 Requires at least: 2.7
 Tested up to: 2.9.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 
 == Description ==
@@ -15,7 +15,7 @@ This plugin enables you to use [Fontself fonts](http://www.fontself.com/) on you
 
 == Installation ==
 
-This plugin follows the [standard WordPress installation method])(http://codex.wordpress.org/Managing_Plugins#Installing_Plugins):
+This plugin follows the [standard WordPress installation method](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins):
 
 1. Upload the `fontself` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
