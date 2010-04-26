@@ -53,7 +53,7 @@ function fs_get_public_fonts() {
 	if (empty($output)) {
 		return array();
 	} else {
-		$fonts = json_decode($output);
+		$fonts = fs_json_decode($output);
         usort($fonts, 'fs_sortfonts');
         return $fonts;
 	}

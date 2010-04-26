@@ -95,7 +95,7 @@ class Fontself {
         // Get the public fonts
         $fonts = fs_get_public_fonts(); ?>
 <script type="text/javascript">
-var fontlist = <?php echo json_encode($fonts); ?>;
+var fontlist = <?php echo fs_json_encode($fonts); ?>;
 </script>
 	<?php
 	}
