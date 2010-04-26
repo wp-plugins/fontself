@@ -113,3 +113,34 @@ EOT;
 		}
 	}
 }
+
+if (!function_exists('json_encode')) {
+    require_once(ABSPATH."/wp-includes/js/tinymce/plugins/spellchecker/classes/utils/JSON.php");
+    
+	function fs_json_encode($obj) {
+		$json_obj = new Moxiecode_JSON();
+		return $json_obj->encode($obj);
+	}
+} else {
+    function fs_json_encode($obj) {
+        return json_encode($obj);
+    }
+}
+
+if (!function_exists('json_decode')) {
+    require_once(ABSPATH."/wp-includes/js/tinymce/plugins/spellchecker/classes/utils/JSON.php");
+    
+	function fs_json_decode($json) {
+        $json_obj = new Moxiecode_JSON();
+    	$results = $json_obj->decode($json);
+    	$out = array();
+    	foreach ($results as $row) {
+    		$out[] = (object) $row;
+    	}
+    	return $out;
+    }
+} else {
+    function fs_json_decode($json) {
+        return json_decode($json);
+    }
+}
