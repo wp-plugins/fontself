@@ -3,7 +3,7 @@
  Plugin Name: Fontself
  Plugin URI: http://vedovini.net/plugins
  Description: Allows posting, commenting and viewing with fontself.
- Version: 1.0
+ Version: 1.0.3
  Author: Claude Vedovini
  Author URI: http://vedovini.net/
  */
