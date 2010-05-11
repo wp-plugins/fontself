@@ -5,12 +5,12 @@ Donate link: http://vedovini.net/plugins
 Tags: Fontself,font,fonts,typeface,handwritten,personalize
 Requires at least: 2.7
 Tested up to: 2.9.2
-Stable tag: 1.0.2
+Stable tag: 1.0.4
 
 
 == Description ==
 
-This plugin enables you to use [Fontself fonts](http://www.fontself.com/) on your blog.
+This plugin lets you to use [Fontself fonts](http://www.fontself.com/) in your Wordpress blog.
 
 
 == Installation ==
@@ -20,21 +20,15 @@ This plugin follows the [standard WordPress installation method](http://codex.wo
 1. Upload the `fontself` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-Visitors can now post comments using [Fontself fonts](http://www.fontself.com/) and you can write posts 
-using [Fontself fonts](http://www.fontself.com/). 
-
-
-== Usage ==
+Visitors can now post comments using [Fontself fonts](http://www.fontself.com/) and you can write posts using [Fontself fonts](http://www.fontself.com/). 
 
 To use [Fontself fonts](http://www.fontself.com/) in your posts select a bloc of text while editing your 
 post (it is recommended to select full paragraphs) and select a font in the Fontself fonts selection box.
-A shortcode will then be added around your text. Optionally you can specify the font size by adding a `size` 
-attribute to the shortcode.
+A shortcode will then be added around your text. Optionally you can specify the font size by adding a `size` attribute to the shortcode.
 
-To use [Fontself fonts](http://www.fontself.com/) in your theme, for example to have all your posts titles 
-use a specific font, you can use the `fontself` template tag:
+To use [Fontself fonts](http://www.fontself.com/) in your theme, for example to have all your posts titles use a specific font, you can use the `fontself` template tag:
 
-'<?php fontself($text, $font, $size); ?>'
+`<?php fontself($text, $font, $size); ?>`
 
 * **$text** *(string)* the text to display
 * **$font** *(string)* the key of the font to use (the key is the identifier that goes into the `font` attribute of the shortcode)
@@ -48,6 +42,12 @@ use a specific font, you can use the `fontself` template tag:
 
 
 == Changelog ==
+
+= version 1.0.4 =
+- removing normalization of text prior to filtering
+
+= version 1.0.3 =
+- Fixing syntax issue in readme.txt
 
 = version 1.0.2 =
 - Alternate json functions when php < 5.2
