@@ -10,7 +10,7 @@ Stable tag: 1.0.3
 
 == Description ==
 
-This plugin enables you to use [Fontself fonts](http://www.fontself.com/) on your blog.
+This plugin lets you to use [Fontself fonts](http://www.fontself.com/) in your Wordpress blog.
 
 
 == Installation ==
@@ -20,19 +20,13 @@ This plugin follows the [standard WordPress installation method](http://codex.wo
 1. Upload the `fontself` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-Visitors can now post comments using [Fontself fonts](http://www.fontself.com/) and you can write posts 
-using [Fontself fonts](http://www.fontself.com/). 
-
-
-== Usage ==
+Visitors can now post comments using [Fontself fonts](http://www.fontself.com/) and you can write posts using [Fontself fonts](http://www.fontself.com/). 
 
 To use [Fontself fonts](http://www.fontself.com/) in your posts select a bloc of text while editing your 
 post (it is recommended to select full paragraphs) and select a font in the Fontself fonts selection box.
-A shortcode will then be added around your text. Optionally you can specify the font size by adding a `size` 
-attribute to the shortcode.
+A shortcode will then be added around your text. Optionally you can specify the font size by adding a `size` attribute to the shortcode.
 
-To use [Fontself fonts](http://www.fontself.com/) in your theme, for example to have all your posts titles 
-use a specific font, you can use the `fontself` template tag:
+To use [Fontself fonts](http://www.fontself.com/) in your theme, for example to have all your posts titles use a specific font, you can use the `fontself` template tag:
 
 `<?php fontself($text, $font, $size); ?>`
 
