@@ -1,11 +1,11 @@
 <?php
 /*
  Plugin Name: Fontself
- Plugin URI: http://vedovini.net/plugins
+ Plugin URI: http://vedovini.net/plugins/?utm_source=wordpress&utm_medium=plugin&utm_campaign=fontself
  Description: Allows posting, commenting and viewing with fontself.
- Version: 1.0.3
+ Version: 1.0.5
  Author: Claude Vedovini
- Author URI: http://vedovini.net/
+ Author URI: http://vedovini.net/?utm_source=wordpress&utm_medium=plugin&utm_campaign=fontself
  */
 
 /*
