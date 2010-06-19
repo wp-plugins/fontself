@@ -1,11 +1,11 @@
 === Fontself plugin ===
 Author: Claude Vedovini
 Contributors: cvedovini
-Donate link: http://vedovini.net/plugins
+Donate link: http://vedovini.net/plugins/?utm_source=wordpress&utm_medium=plugin&utm_campaign=fontself
 Tags: Fontself,font,fonts,typeface,handwritten,personalize
 Requires at least: 2.7
 Tested up to: 2.9.2
-Stable tag: 1.0.4
+Stable tag: 1.0.6
 
 
 == Description ==

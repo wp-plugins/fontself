@@ -41,8 +41,7 @@ function fs_filter($id, $content, $font, $size=20) {
 	}
 
 	$div_id = "fontself-" . $id;
-	// $raw_content = fs_normalize($content);
-	$raw_content = html_entity_decode($raw_content, ENT_QUOTES, 'UTF-8');
+	$raw_content = html_entity_decode($content, ENT_QUOTES, 'UTF-8');
 	$raw_content = urlencode($raw_content);
 
 	return <<<EOT
