@@ -29,7 +29,7 @@ function fs_normalize($content) {
 }
 
 function fs_call($path, $params=false) {
-	$url = FONTSELF_API . $path;
+	$url = get_option('fontself_api', FONTSELF_API) . $path;
 	
 	if ($params) {
 		$url = $url . '?' . http_build_query($params);

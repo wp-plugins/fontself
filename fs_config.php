@@ -29,15 +29,20 @@ class FSConfig {
 <table class="form-table">
 	<tr valign="top">
 		<th scope="row"><?php _e('Comments', FONTSELF_DOMAIN); ?></th>
-		<td>﻿ <label for="fontself_comments"> <input name="fontself_comments"
-			type="checkbox" id="fontself_comments" value="1"
-			<?php checked('1', get_option('fontself_comments')); ?> /> <?php _e('Enable Fontself on comments', FONTSELF_DOMAIN); ?></label>
-		<p><em><?php _e('Selecting this option enables Fontself users to post comments using Fontself fonts.', FONTSELF_DOMAIN); ?></em></p>
+		<td><input id="fontself_comments" name="fontself_comments" type="checkbox" value="1" <?php checked('1', get_option('fontself_comments')); ?> /> 
+			<label for="fontself_comments"><?php _e('Enable Fontself on comments', FONTSELF_DOMAIN); ?></label>
+			<p><em><?php _e('Selecting this option enables Fontself users to post comments using Fontself fonts.', FONTSELF_DOMAIN); ?></em></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<th scope="row"><?php _e('Fontself API', FONTSELF_DOMAIN); ?></th>
+		<td><input id="fontself_api" name="fontself_api" type="text" value="<?php echo get_option('fontself_api'); ?>" />
+			<p><em><?php _e('Do not change this unless you know exactly what you are doing.', FONTSELF_DOMAIN); ?></em></p>
 		</td>
 	</tr>
 </table>
 <input type="hidden" name="action" value="update" />
-<input type="hidden" name="page_options" value="fontself_comments" />
+<input type="hidden" name="page_options" value="fontself_comments,fontself_api" />
 <p class="submit"><input type="submit" name="submit"
 	value="<?php _e('Save Changes'); ?>" /></p>
 </form>
