@@ -100,7 +100,7 @@ var fontlist = <?php echo fs_json_encode($fonts); ?>;
 	<?php
 	}
 	
-function comment_form($post_id) {
+function comment_form($post_id=0) {
             // Get the public fonts
             $fonts = fs_get_public_fonts(); ?>
 <div id="fontself-comment-form">
@@ -116,6 +116,7 @@ function comment_form($post_id) {
     </div>
 </div>
     <?php
+    	return $post_id;
 	}
 
 	function init_config() {
