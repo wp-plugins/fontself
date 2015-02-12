@@ -10,6 +10,8 @@ Stable tag: 1.0.6
 
 == Description ==
 
+The Fontself service has been discontinued and this plugin is no more maintained.
+
 This plugin lets you to use [Fontself fonts](http://www.fontself.com/) in your Wordpress blog.
 
 
